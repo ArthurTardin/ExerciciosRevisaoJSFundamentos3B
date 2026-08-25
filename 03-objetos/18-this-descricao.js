@@ -4,3 +4,17 @@
 //
 // Escreva sua solução abaixo:
 
+class Curso{
+    constructor(nome, modalidade){
+        this.nome = nome;
+        this.modalidade = modalidade;
+    };
+
+    Descrever(){
+       return `O nome do meu curso é ${this.nome}, na modalidade ${this.modalidade}`;
+    }
+}
+
+const curso = new Curso("Desenvolvimento de sistema", "TI");
+
+console.log(curso.Descrever());
