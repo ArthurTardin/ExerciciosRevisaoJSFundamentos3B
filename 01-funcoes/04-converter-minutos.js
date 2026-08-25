@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const converterMinutos = function (minutos){
+    return minutos * 60;
+}
+
+console.log(converterMinutos(60));
