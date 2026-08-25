@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const linguagens = ["Python", "C#", "JavaScript"];
+
+const [python, csharp, javascript] = linguagens;
+
+console.log(python, csharp, javascript);
