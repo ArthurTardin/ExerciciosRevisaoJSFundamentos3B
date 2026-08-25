@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+const arrowFunction = (numero) => {return numero * 3}
+
+console.log(arrowFunction(12));
