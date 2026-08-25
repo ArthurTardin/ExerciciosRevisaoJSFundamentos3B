@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+cidades = ["Osasco", "Carapicuiba", "SaoPaulo", "Jacarei", "Taubate"];
+
+cidades.forEach((a) => {console.log(a)})
