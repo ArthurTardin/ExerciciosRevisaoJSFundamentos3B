@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+class Reserva{
+    constructor(codigo, hospede, numeroNoites){
+        this.codigo = codigo;
+        this.hospede = hospede;
+        this.numeroNoites = numeroNoites;
+    }
+}
+
+const reserva = new Reserva(1222, "Arthur", 4)
+const json = JSON.stringify(reserva);
+
+console.log(json);
