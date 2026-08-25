@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+class Viagem{
+    constructor(destino, dias, valor){
+        this.destino = destino;
+        this.dias = dias;
+        this.valor = valor;
+    };
+
+}
+
+const {destino, dias, valor} = Viagem;
+
+console.log(destino, dias, valor);
