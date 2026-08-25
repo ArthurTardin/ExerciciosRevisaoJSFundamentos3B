@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const quantidades = [4, 2, 7, 1, 6];
+
+const verificar = quantidades.every((num) => num > 0);
+
+console.log(verificar);
