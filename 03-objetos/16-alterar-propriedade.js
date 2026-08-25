@@ -5,3 +5,18 @@
 //
 // Escreva sua solução abaixo:
 
+class Ingresso{
+    constructor(evento, preco, quantidade){
+        this.evento = evento;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    };
+}
+
+const ingresso = new Ingresso("Tupis vs the classics", 150, 1);
+console.log(ingresso);
+
+ingresso.preco = 300;
+ingresso.quantidade = 2;
+
+console.log(ingresso);
