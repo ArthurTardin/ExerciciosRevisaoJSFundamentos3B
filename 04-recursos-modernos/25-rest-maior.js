@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function maiorNumero(...numeros){
+    return Math.max(...numeros);
+}
+
+console.log(maiorNumero(15, 42, 8, 91, 23, 64));
