@@ -4,3 +4,15 @@
 //
 // Escreva sua solução abaixo:
 
+class Paciente{
+    constructor(nome, idade, convenio){
+        this.nome = nome;
+        this.idade = idade;
+        this.convenio = convenio;
+    };
+}
+
+const paciente = new Paciente("Arthur", 17, "Porto");
+
+console.log(paciente.nome);
+console.log(paciente.convenio);
