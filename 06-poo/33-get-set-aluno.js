@@ -5,3 +5,26 @@
 //
 // Escreva sua solução abaixo:
 
+class Aluno {
+    #nota;
+
+    get nota() {
+        return this.#nota;
+    }
+
+    set nota(novaNota) {
+        if (novaNota >= 0 && novaNota <= 10) {
+            this.#nota = novaNota;
+        } else {
+            console.log("Erro: A nota deve estar entre 0 e 10.");
+        }
+    }
+}
+
+const aluno = new Aluno();
+
+aluno.nota = 8.5; 
+
+console.log(`A nota do aluno é: ${aluno.nota}`); 
+
+aluno.nota = 12; 
