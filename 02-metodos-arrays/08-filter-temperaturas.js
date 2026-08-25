@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+const temperaturas = [18, 25, 31, 16, 29, 35, 22];
+
+const maior25 = temperaturas.filter((temp) => temp > 25);
+
+console.log(maior25);
