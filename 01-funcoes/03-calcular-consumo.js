@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularConsumo(distancia, litros){
+    return distancia / litros;
+}
+
+console.log(calcularConsumo(100, 15));
