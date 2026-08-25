@@ -6,3 +6,29 @@
 //
 // Escreva sua solução abaixo:
 
+class Pagamento {
+    processar() {}
+}
+
+class Pix extends Pagamento {
+    processar() {
+        return "Pagamento com pix";
+    }
+}
+
+class Cartao extends Pagamento {
+    processar() {
+        return "Pagamento com cartão";
+    }
+}
+
+
+function executarPagamento(sistemaDePagamento) {
+    console.log(sistemaDePagamento.processar());
+}
+
+const pagamento1 = new Pix();
+const pagamento2 = new Cartao();
+
+executarPagamento(pagamento1);
+executarPagamento(pagamento2);
